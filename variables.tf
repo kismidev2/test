@@ -48,7 +48,7 @@ variable "linux_app_service__msaenterrg" {
                 "default-appservice" = {
                     "client_cert_enabled" = "true",
                     "auth_settings_enabled" = "true",
-                    "detailed_error_messages_enabled" = "false",
+                    "detailed_error_messages_enabled" = "true",
                     "failed_request_tracing_enabled" = "true",
                     "retention_in_days" = "5",
                     "retention_in_mb" = 25,
